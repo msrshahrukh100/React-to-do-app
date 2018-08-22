@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+input[type=checkbox].strikethrough:checked + label{
+  text-decoration: line-through;
+  color: #47a69a;
+}
+
+input[type=checkbox].strikethrough + label{
+  color: black;
+  font-size: 1.1rem;
+}
+
+.task-item-row {
+	margin-bottom: 0px;
+}
+.task-item-row-extra {
+	margin-top: 15px;
+}
+
+.toolbar {
+	position: absolute;
+	right: 0;
+	z-index: 1000;
+}
+
+.smooth-color-transition {
+	transition: background-color 0.2s ease !important;
+}
+
+.card-board {
+	display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.task-list {
+	flex: 0 0 auto;
+}
